@@ -1,0 +1,11 @@
+body {
+  padding: 1rem;
+}
+
+output {
+  display: block;
+  min-height: 1rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 3px;
+}
