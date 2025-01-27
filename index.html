@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odds and Events</title>
     <link rel="stylesheet" href="index.css" />
-    <script defer src="index.js"></script>
   </head>
   <body>
     <h1>Odds and Events</h1>
@@ -19,7 +18,7 @@
     <main>
       <section id="numberBank">
         <h2>Number Bank</h2>
-        <output></output>
+        <output id="#output"></output>
         <div>
           <button id="sortOne">Sort 1</button>
           <button id="sortAll">Sort All</button>
@@ -29,13 +28,14 @@
         <h2>Sorted Numbers</h2>
         <section id="odds">
           <h3>Odds</h3>
-          <output></output>
+          <output id="oddsOut"></output>
         </section>
         <section id="evens">
           <h3>Evens</h3>
-          <output></output>
+          <output id="evensOut"></output>
         </section>
       </section>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
